@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFB6C1;
+    height: 100vh;
+    display: flex;
+  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    position: absolute;
+    right: 35%;
+    left: 35%;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 30px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1)
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFB6C1;
+    margin-bottom: 15px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom:15px;
+    flex-direction: column;
+}
+.form-box form .input input{
+    height: 45px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    background: rgba(25, 10, 236, 0.808);
+    border: 0;
+    border-radius:5px;
+    color: #FFB6C1;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.Submit{
+    width: 100%;
+}
+.links{
+    margin-bottom: 15px;
+}
+.arrow{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    height: 30vh;
+    flex-direction: column;
+}
+.arr{
+    position: relative;
+    background: #e0dce0;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: 0.4s ease;
+}
+.arr:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.205) ;
+}
+.arr div{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    left: 14px;
+    top: 15px;
+}
+.left{
+    transform: rotate(-90deg);
+}
+.right-links a{
+    padding: 0 10px;
+    align-items: center;
+   
+ }
+ 
+.nave a{
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    z-index: 100;
+    right: 10%;
+    bottom: 0;
+    text-align: right;
+    position: fixed;
+
+}
+
+.navee a{
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    z-index: 100;
+    right: 3%;
+    bottom: 2%;
+    text-align: right;
+    position: fixed;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5), #FFB6C1),url(images/makeup.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text{
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+    }
+
+.banner-text h1{
+    font-size: 70px;
+    font-family: "Kaushan Script", cursive;
+
+}
+.banner-text p{
+    font-family: serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.banner_btn{
+    margin: 70px auto 0;
+    text-align: center;
+}
+.banner_btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0 ;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;   
+}
+.banner_btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFB6C1;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner_btn a:hover span{
+    width: 100%;
+}
+.logooo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    
+}
